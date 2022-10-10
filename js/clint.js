@@ -73,5 +73,6 @@ socket.on('receive' , data=>{
 })
 
 socket.on('left' , name=>{
-    append(`${name} left the chat`,'center')
+    if(name !=null){
+    append(`${name} left the chat`,'center')}
 })
