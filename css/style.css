@@ -8,6 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
+    overflow-y:auto;
     overflow-x: hidden;
     box-sizing:border-box;
     background: linear-gradient(to right,#242423,rgb(78, 71, 71)) ;
