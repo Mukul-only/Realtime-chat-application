@@ -8,9 +8,20 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    overflow: hidden;
+    overflow-x: hidden;
     box-sizing:border-box;
     background: linear-gradient(to right,#242423,rgb(78, 71, 71)) ;
+}
+
+body::-webkit-scrollbar{
+    width:10px;
+
+    background-color: rgb(78, 71, 71);
+}
+body::-webkit-scrollbar-thumb{
+    width:6px;
+    background-color: #11191c;
+    border-radius: 6px;
 }
 .dev{
     color:gray;
@@ -120,18 +131,18 @@ h1{
     background-color: #1e2c33;
 }
 
-.container::-webkit-scrollbar{
+.container::-webkit-scrollbar {
     width: 6px;
 }
 
 
-.container::-webkit-scrollbar-thumb{
+.container::-webkit-scrollbar-thumb {
     width: 6px;
     border-radius: 4px;
     background-color: #11191c;
 }
 
-.container::-webkit-scrollbar-thumb:hover{
+.container::-webkit-scrollbar-thumb:hover {
     background-color: #ffffff;
 }
 
