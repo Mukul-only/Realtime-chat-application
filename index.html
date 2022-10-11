@@ -1,39 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prate</title>
-    <script defer  src="http://localhost:8000/socket.io/socket.io.js"></script>
-   <script defer src="js/clint.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
-
-   
-</head>
-<body>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/clint.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
     <nav>
-        <table>
-            <tr>
-                <td class="dev">DEVELOPED by @mukulkushwaha</td>
-                <td><img class="logo" src="image/logo.png" alt=""></td>
-            </tr>
-        </table>
+      <p class="dev">DEVELOPED by @mukulkushwaha</p>
+      <img class="logo" src="image/logo.png" alt="" >
     </nav>
     <!-- <nav> <h3>DEV by @mukulkushwaha</h3>
          <img class="logo" src="image/logo.png" alt=""></nav> -->
-    <div class="container" id="container">
-       
-   
-    </div>
-    
-    <div class="submit">
-        <form action="#" id="send-container">
-          <input type="text" name="messageInp" id="messageInp" placeholder="Enter your message">
-          <button class="btn" type="submit">Send</button>
-        </form>
-    </div>
+    <div class="container" id="container"></div>
 
-</body>
+    <div class="submit">
+      <form action="#" id="send-container">
+        <input
+          type="text"
+          name="messageInp"
+          id="messageInp"
+          placeholder="Enter your message"
+        />
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </div>
+  </body>
 </html>
