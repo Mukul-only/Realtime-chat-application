@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatter</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+
+
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/e9c302e1c5.js" crossorigin="anonymous"></script>
+
+    <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="title">
+        <div class="container-fluid">
+            <!-- nav bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a href="#" class="navbar-brand"><img class="brand-image" src="images/logo.png" alt="chatter" /><span
+                        class="brand-name">Chatter</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-title"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-title">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#cta" class="nav-link">Chatter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#fotter" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#features" class="nav-link">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#os" class="nav-link">Sorce Code</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#aboutus" class="nav-link">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- title -->
+            <div class="row">
+                <div class="col-lg-6 title-text">
+                    <h1>A place where ideas grow. Chatter.</h1>
+                    <button class="btn btn-dark btn-lg title-btn"><i class="fa-solid fa-user-plus"></i> SignUp</button>
+                    <button class="btn btn-outline-light btn-lg title-btn"><i class="fa-solid fa-right-to-bracket"></i>
+                        Login</button>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/brand_img.png" alt="chat app image" class="title-image">
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 features-item">
+                <i class="fa-sharp fa-solid fa-circle-check fa-4x f-ico"></i>
+                <h3>Easy to use</h3>
+                <p>So easy to use,even a kid could do it.</p>
+            </div>
+            <div  class="col-lg-3 col-md-6 features-item">
+                <i class="fa-brands fa-discourse fa-4x f-ico"></i>
+                <h3>Simple Design</h3>
+                <p>The simple design for everyone.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 features-item">
+                <i class="fa-solid fa-shield-halved fa-4x f-ico"></i>
+                <h3>Reliable</h3>
+                <p>
+                    access anytime and everytime.on time notification to keep you posted
+                    with the updates.
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-6 features-item">
+                <i class="fa-solid fa-users fa-4x f-ico"></i> 
+                <h3>Scalable</h3>
+                <p>
+                    we have 1000+ user base and still counting.Modern infrastructure to
+                    support website and our visitors.
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <section id="os">
+        <h2>This is an Open Source project</h2>
+        <p>Find the source code below.</p>
+        <a href="#"><button class="btn btn-light btn-lg sc"><i class="fa-solid fa-code"></i> Source Code</button></a>
+    </section>
+
+    <section id="cta">
+        <h2>Lets get right to the application!</h2>
+        <p>click below to access the chatter.</p>
+       <a href="#"><button class="btn btn-lg btn-dark lg"><i class="fa-solid fa-location-arrow"></i>  Let's Go!</button></a> 
+    </section>
+    <section id="aboutus">
+        <h3>Our team</h3>
+    </section>
+    <section id="fotter">
+        <i class="fa-brands fa-facebook contact-ico"></i>
+        <i class="fa-brands fa-github contact-ico"></i>
+        <i class="fa-brands fa-linkedin contact-ico"></i>
+        <i class="fa-solid fa-envelope contact-ico"></i>
+        <p>© Copyright Chatter</p>
+    </section>
+</body>
+
+</html>

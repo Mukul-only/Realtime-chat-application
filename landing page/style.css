@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;900&family=Ubuntu&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size:3.5rem;
+    line-height: 1.5;
+    color:white;
+}
+h2{
+    font-size:3rem;
+    font-weight: bolder;
+    color:white;
+}
+h3{
+    font-weight: bolder;
+    
+}
+#title{
+    padding:5% 12% 10%;
+    background-image:linear-gradient(to right,#023e8a,#48cae4);
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.brand-image{
+    width:10%;
+    margin-right:2%;
+}
+.brand-name{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
+
+.title-btn{
+    margin:5% 3% 0 3%;
+}
+
+.nav-item{
+    padding:0 18px;
+    font-size:1.3rem;
+}
+.title-image{
+    width:50%;
+    transform:rotate(25deg);
+    position:absolute;
+    right:30%;
+}
+
+@media (max-width:991px){
+    #title{
+        padding-bottom: 60%;
+    }
+    .title-text{
+        text-align: center;
+    }
+    .title-image{
+        display:block;
+        margin:auto;    
+        margin-top:30%;
+    }
+}
+/* features */
+#features{
+    position:relative;
+    background-color: white;
+    padding:7% 14%;
+}
+.features-item{
+    text-align: center;
+    padding:3% ;
+}
+.features-item p{
+    color:#8f8f8f;
+}
+
+.f-ico{
+    margin-bottom:3%;
+    color: #29548e;
+}
+.f-ico:hover{
+    color:#023e8a;
+}
+
+/* Source code */
+#os{
+    padding:7% 14%;
+    text-align: center;
+    line-height: 2;
+    background-image:linear-gradient(to bottom right,#023e8a,#48cae4);
+}
+
+#os p{
+    
+    font-weight: 500;
+    font-size:1.4rem;
+    color:gainsboro;
+}
+
+.sc{
+    padding:1% 2%;
+}
+
+/* call to action */
+#cta{
+    padding:7% 14%;
+    text-align: center;
+}
+#cta h2{
+    background-image:linear-gradient(to right,#023e8a, #48cae4);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+#cta p{
+    font-weight: 500;
+    margin:2% 0;
+    font-size: 1.5rem;
+    color:#8f8f8f;
+}
+
+.lg{
+    padding:1% 2%;
+}
+
+/* about us */
+#aboutus{
+    text-align: center;
+}
+ 
+
+/* fotter */
+#fotter{
+    padding:7% 14% 2%;
+    text-align: center;
+    
+}
+#fotter p{
+    color:#8f8f8f;
+    
+}
+.contact-ico{
+    margin:10px 8px;
+}
